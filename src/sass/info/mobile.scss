@@ -1,0 +1,307 @@
+& {
+
+  header,
+  main {
+    overflow: hidden;
+  }
+
+  header {
+    background-position: 0% 50%;
+  }
+
+  .header-item {
+    text-align: center;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  header .order-btn {
+    margin-top: 20px;
+  }
+
+  .order-btn {
+    font-size: 14px;
+  }
+
+  header,
+  .info,
+  .section_1,
+  .section_2,
+  .section_3,
+  .section_4,
+  .programs,
+  .section_7 {
+    padding: 40px 0;
+  }
+
+  .xs-none {
+    display: none;
+  }
+
+  .h2-title {
+    font-size: 20px;
+
+    br {
+      display: none;
+    }
+  }
+
+  .info-item p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .section_2-list li {
+    padding-left: 47px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .programs-item .title {
+    font-size: 18px;
+  }
+
+  .programs-item {
+    margin-top: 80px;
+  }
+
+  .programs .btn-box {
+    margin-bottom: 0;
+  }
+
+  .programs-item p {
+    font-size: 1rem;
+  }
+
+  .speacker {
+    padding: 40px 0;
+    min-height: inherit;
+    background: url(../images/40.jpg) no-repeat 100% top;
+  }
+
+  .speacker-item {
+    margin-top: 10px;
+  }
+
+  .speacker-item .title {
+    font-size: 22px;
+  }
+
+  .speacker-list li {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 560px;
+  }
+
+  .programs-item .title > span {
+    display: block;
+  }
+
+  .online-item .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .price-item .content ul {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+
+  .bonus-item {
+    text-align: center;
+  }
+
+  .bonus-item .title {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .bonus-img {
+    margin-bottom: 10px;
+  }
+
+  .increase-table tr:first-child td {
+    font-size: 12px;
+  }
+
+  .price_pay h1 {
+    background: #590898;
+    color: #c20175;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 17px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .price_pay-item {
+    font-size: 18px;
+    text-align: center;
+
+    &.old {
+      font-size: 16px;
+    }
+  }
+
+  .price_pay h2 {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+  .price_pay {
+    padding: 30px 0 0;
+    margin-bottom: 20px;
+  }
+
+  .header-form h2 {
+    text-transform: uppercase;
+    color: #590898;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .countdownHolder .title {
+    font-size: 14px;
+  }
+
+  .header-item h2 {
+    span {
+      display: block;
+    }
+  }
+
+  .bonus-item ul li {
+    text-align: left;
+  }
+
+  footer {
+    text-align: center;
+
+    .footer-list {
+      text-align: center;
+
+      li {
+        display: block;
+      }
+    }
+  }
+
+  .menu {
+    text-align: center;
+    display: none;
+
+    li {
+      display: block;
+      margin-bottom: 30px;
+
+      a {
+        margin: 0 !important;
+
+      }
+    }
+  }
+
+  .mob-btn {
+    display: block;
+  }
+
+  header {
+    padding-top: 120px;
+  }
+
+  .h2-title {
+    br {
+      display: block;
+    }
+  }
+
+  .header-item h1 span {
+    display: block;
+    font-size: 37px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .section_2 .h2-title {
+    margin-bottom: 20px;
+  }
+
+  .pyramid li {
+    padding: 10px !important;
+  }
+
+  .pyramid li:nth-child(3) {
+    margin: 0 15px;
+  }
+
+  .pyramid li:nth-child(2) {
+    margin: 0 25px;
+  }
+
+  .pyramid li:nth-child(1) {
+    margin: 0 35px;
+  }
+
+  .pyramid li .title {
+    font-size: 1rem;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .pyramid li {
+    p {
+      margin: 0;
+      line-height: 1.1;
+      font-size: 14px;
+    }
+  }
+
+  .section_33-item .title {
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+
+  .section_3 {
+    text-align: center;
+  }
+
+  .section_33-item {
+    margin-top: 0;
+  }
+
+  .programs-img  {
+    height: 190px;
+    margin: 0;
+    display: none;
+  }
+  .section_1, .info {
+    .order-btn {
+      margin-top: 20px;
+    }
+  }
+  .header h2 {
+    font-size: 1rem;
+    span {
+      display: block;
+    }
+  }
+}
